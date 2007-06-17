@@ -1,13 +1,13 @@
 Summary:	Portuguese dictionaries for aspell
 Summary(pl.UTF-8):	Portugalskie słowniki dla aspella
 Name:		aspell-pt_PT
-Version:	20070206
+Version:	20070510
 %define	subv	0
 Release:	1
 License:	GPL
 Group:		Applications/Text
 Source0:	ftp://ftp.gnu.org/gnu/aspell/dict/pt_PT/aspell6-pt_PT-%{version}-%{subv}.tar.bz2
-# Source0-md5:	d7f8c7a62b26f6dafa42d18f659e3478
+# Source0-md5:	a54267ce8f91de6e6a1baf1e8048cba0
 URL:		http://aspell.sourceforge.net/
 BuildRequires:	aspell >= 3:0.60.0
 Requires:	aspell >= 3:0.60.0
