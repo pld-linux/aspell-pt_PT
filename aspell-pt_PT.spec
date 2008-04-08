@@ -6,7 +6,7 @@ Version:	20070510
 Release:	1
 License:	GPL
 Group:		Applications/Text
-Source0:	ftp://ftp.gnu.org/gnu/aspell/dict/pt_PT/aspell6-pt_PT-%{version}-%{subv}.tar.bz2
+Source0:	http://ftp.gnu.org/gnu/aspell/dict/pt_PT/aspell6-pt_PT-%{version}-%{subv}.tar.bz2
 # Source0-md5:	a54267ce8f91de6e6a1baf1e8048cba0
 URL:		http://aspell.sourceforge.net/
 BuildRequires:	aspell >= 3:0.60.0
