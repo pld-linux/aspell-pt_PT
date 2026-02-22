@@ -11,6 +11,7 @@ Source0:	https://ftp.gnu.org/gnu/aspell/dict/pt_PT/aspell6-pt_PT-%{version}-%{su
 URL:		http://aspell.net/
 BuildRequires:	aspell >= 3:0.60.0
 Requires:	aspell >= 3:0.60.0
+BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
@@ -40,10 +41,10 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc Copyright README
-%{_libdir}/aspell/pt_PT.multi
-%{_libdir}/aspell/pt_PT.rws
-%{_libdir}/aspell/portugues.alias
-%{_libdir}/aspell/portuguese.alias
+%{_prefix}/lib/aspell/pt_PT.multi
+%{_prefix}/lib/aspell/pt_PT.rws
+%{_prefix}/lib/aspell/portugues.alias
+%{_prefix}/lib/aspell/portuguese.alias
 %{_datadir}/aspell/pt_PT.dat
 %{_datadir}/aspell/pt_PT_affix.dat
 %{_datadir}/aspell/pt_PT_repl.dat
