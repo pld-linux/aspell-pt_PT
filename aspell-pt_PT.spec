@@ -3,7 +3,7 @@ Summary(pl.UTF-8):	Portugalskie słowniki dla aspella
 Name:		aspell-pt_PT
 Version:	20190329
 %define	subv	1-0
-Release:	2
+Release:	3
 License:	GPL
 Group:		Applications/Text
 Source0:	https://ftp.gnu.org/gnu/aspell/dict/pt_PT/aspell6-pt_PT-%{version}-%{subv}.tar.bz2
